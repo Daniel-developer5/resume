@@ -1,0 +1,26 @@
+.Home {
+    background-image: url('../../img/ihome.jpg');
+    background-size: cover;
+    overflow: hidden;
+    
+    > div {
+        height: 100%;
+        background-color: rgba($color: #62c4eb, $alpha: .8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            transition: ease .3s;
+
+            span {
+                font-size: 60px;
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+        }
+    }
+}

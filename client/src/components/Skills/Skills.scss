@@ -1,0 +1,53 @@
+.Skills {
+    padding: 20px;
+
+    .box {
+        transition: ease .3s;
+
+        > div {
+            display: flex;
+    
+            h2 {
+                position: relative;
+    
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 8px;
+                    border-radius: 10px;
+                    background-color: #1463da;
+                    bottom: 5px;
+                    left: 10px;
+                    z-index: -1;
+                }
+            }
+        }
+
+        > ul {
+            &.front {
+                border-bottom: 1px solid #1463da;
+            }
+    
+            > li, li h3 {
+                font-size: 22px;
+                font-weight: 500;
+            }
+    
+            > li {
+                margin: 20px 0;
+    
+                ul {
+                    list-style-type: disc;
+                    padding-left: 20px;
+    
+                    li {
+                        font-size: 18px;
+                        font-style: italic;
+                    }
+                }
+            }
+        } 
+    }
+}

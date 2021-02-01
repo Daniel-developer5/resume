@@ -1,0 +1,39 @@
+.Education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .icon {
+        text-align: center;
+        color: #0d0dbb;
+        font-size: 70px;
+        transition: ease .3s;
+    }
+
+    ul {
+        padding: 20px;
+
+        li {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #62c4eb,;
+            color: #fff;
+            font-size: 16px;
+            text-transform: capitalize;
+
+            &.it {
+                margin-top: 20px;
+            }
+
+            p {
+                margin: 0;
+
+                &:first-child {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.alert-box {
+    display: flex;
+    justify-content: center;
+
+    .alert {
+        position: fixed;
+        top: 20px;
+        z-index: 10000;
+        transition: ease .3s;
+        transform: translateY(-500px);
+
+        &.open {
+            transform: translateY(0);
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.Contacts {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+        transition: ease .3s;
+
+        li {
+            color: #04047a;
+            font-size: 20px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+
+            i {
+                font-size: 30px;
+                margin-right: 10px;
+            }
+
+            a {
+                transition: ease .3s;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 20px;
+        }
+
+        > * {
+            margin: 10px 0;
+        }
+
+        button {
+            outline: none;
+        }
+
+        div:last-child {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
