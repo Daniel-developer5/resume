@@ -22,7 +22,7 @@ app.get('/:route', (req, res) => {
     const { route } = req.params
 
     if (route !== 'send') {
-        res.sendFile('index.html', { root: '.../client/build' })
+        res.sendFile('index.html', { root: '../client/build' })
     }
 })
 
